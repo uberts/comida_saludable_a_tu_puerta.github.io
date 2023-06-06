@@ -1,0 +1,132 @@
+/* styles.css */
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos de la barra de navegación */
+  header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  /* Estilos de la sección principal */
+  .hero {
+    background-image: url("hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #ff6347;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  /* Estilos de la sección "Sobre Nosotros" */
+  .about {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+  }
+  
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Estilos del menú */
+  .menu {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .menu h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .menu li {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .menu img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .menu h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .menu p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .menu .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6347;
+  }
+  
